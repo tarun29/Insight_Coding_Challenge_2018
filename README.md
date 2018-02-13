@@ -9,7 +9,7 @@ At the end of each read, the output file is updated with the required informatio
 
 
 # Test Cases checked for: 
-1. General Repeat donor donating to a recipient in a give year and from a zip code. 
+1. General Repeat donor donating to a recipient in a given year and zip code. 
 2. Repeat donor but a new donation to this particular recipient for this year and zipcode. 
-3. Repeat donor donating a second time in the same year(but has donated to this recipient only the first time this year), in this case the first donation is tracked in the dictionary and is added to the "maindict" dictionary to keep track of total amount donated from this donor. 
+3. Repeat donor donating a second time in the same year(but has donated to this recipient only the first time this year), in this case the first donation is tracked in the dictionary and is added to the "maindict" dictionary to keep track of total amount donated from this donor to this recipient this year. 
 
